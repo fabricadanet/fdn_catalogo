@@ -5,9 +5,9 @@ class ConfigController{
 
     private $url;
     private array $explode;
-    private $modulo ='Site';
-    private $controller ='HomeController';
-    private $metodo ='index'; 
+    private $modulo = DEFAULT_MODULE;
+    private $controller = DEFAULT_CONTROLLER;
+    private $metodo = DEFAULT_METHOD; 
     private $param = [];
     public function __construct()
     {
